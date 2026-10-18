@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Nova - Business & Appointment Booking",
+  "description": "High-end business website and full-stack appointment booking system with real-time slot generation, atomic scheduling, customer booking lookup, and comprehensive business administration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

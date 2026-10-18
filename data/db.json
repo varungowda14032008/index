@@ -1,0 +1,481 @@
+{
+  "settings": {
+    "id": "aishwarya-hospital",
+    "name": "Aishwarya Hospital",
+    "tagline": "Multi-Specialty Healthcare & Advanced Surgical Centre",
+    "category": "Multi-Specialty Private Hospital",
+    "phone": "+91 821 241 0255",
+    "email": "appointments@aishwaryahospitalmysore.com",
+    "address": {
+      "street": "A-1 Block, 30, 1st Main Rd, Vijayanagar 3rd Stage",
+      "city": "Mysuru (Mysore)",
+      "state": "Karnataka",
+      "postalCode": "570012",
+      "country": "India"
+    },
+    "googleMapsUrl": "https://www.google.com/maps/place/Aishwarya+Hospital/@12.3232344,76.5330479,13z/data=!4m7!3m6!1s0x3baf7ae5b0000001:0x505e14303dc36cc7!8m2!3d12.3232344!4d76.6092656!15sChJIT1NQSVRBTCBJTiBNWVNPUkVaFCISaG9zcGl0YWwgaW4gbXlzb3JlkgEQcHJpdmF0ZV9ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOaWFGcFhTbFpuRUFF4AEA-gEFCLoBEEs!16s%2Fg%2F11cn30ybhq",
+    "currency": "₹",
+    "timezone": "Asia/Kolkata",
+    "bookingNoticeHours": 1,
+    "advanceBookingDays": 30,
+    "cancellationWindowHours": 6,
+    "bufferMinutes": 10,
+    "configuredByOwner": true,
+    "notesForOwner": "Verified information extracted from Google Maps listing (Aishwarya Hospital, Vijayanagar 3rd Stage, Mysuru). All services, doctor schedules, and emergency contacts are active.",
+    "policies": {
+      "cancellation": "Outpatient consultations can be rescheduled or cancelled up to 4 hours prior to appointment time without fee. For emergencies, please call our 24/7 casualty desk at +91 821 241 0255.",
+      "rescheduling": "Rescheduling is free and can be performed online using your Patient Booking Reference.",
+      "arrival": "Please arrive 10 minutes prior to your OPD consultation slot with previous medical reports and prescriptions for seamless doctor review.",
+      "privacy": "Patient health records and medical consultations adhere strictly to Indian medical privacy standards and clinical confidentiality."
+    }
+  },
+  "services": [
+    {
+      "id": "srv-obgyn",
+      "name": "Obstetrics & Gynecology Consultation",
+      "category": "Women's Health & Maternity",
+      "durationMinutes": 30,
+      "bufferMinutes": 10,
+      "price": 500,
+      "description": "Comprehensive women’s health consultation including antenatal care, high-risk pregnancy monitoring, ultrasound review, and laparoscopic surgical guidance by senior specialists.",
+      "highlights": [
+        "Antenatal & Postnatal Care",
+        "Laparoscopic Surgery Evaluation",
+        "Ultrasound Review"
+      ],
+      "active": true,
+      "image": "/src/assets/images/maternity_patient_room_1792253079647.jpg"
+    },
+    {
+      "id": "srv-medicine",
+      "name": "General Medicine & Diabetology Consultation",
+      "category": "Internal Medicine",
+      "durationMinutes": 25,
+      "bufferMinutes": 10,
+      "price": 450,
+      "description": "Expert diagnosis and treatment of acute fevers, respiratory infections, hypertension, diabetes management, and chronic lifestyle metabolic disorders.",
+      "highlights": [
+        "HbA1c & Glucose Analysis",
+        "Blood Pressure Management",
+        "Preventive Health Advice"
+      ],
+      "active": true,
+      "image": "/src/assets/images/doctor_consultation_room_1792253078608.jpg"
+    },
+    {
+      "id": "srv-cardiology",
+      "name": "Cardiology & Preventive Heart Screening",
+      "category": "Cardiovascular Care",
+      "durationMinutes": 30,
+      "bufferMinutes": 10,
+      "price": 700,
+      "description": "Specialist cardiovascular consultation with review of 12-lead ECG, blood pressure profiling, cholesterol risk assessment, and chest pain triage.",
+      "highlights": [
+        "12-Lead ECG Analysis",
+        "Cardiovascular Risk Stratification",
+        "Lifestyle Cardiac Guidance"
+      ],
+      "active": true,
+      "image": "/src/assets/images/hospital_exterior_modern_1792253077891.jpg"
+    },
+    {
+      "id": "srv-surgery",
+      "name": "General & Laparoscopic Surgery Consultation",
+      "category": "Surgical Specialties",
+      "durationMinutes": 30,
+      "bufferMinutes": 10,
+      "price": 600,
+      "description": "Pre-operative evaluation for minimally invasive laparoscopic procedures including gallbladder stones, hernia repair, appendix, and trauma wound care in modern modular OTs.",
+      "highlights": [
+        "Minimally Invasive Assessment",
+        "Day-Care Surgery Options",
+        "Post-Op Followup"
+      ],
+      "active": true,
+      "image": "/src/assets/images/hospital_operation_theatre_1792253079363.jpg"
+    },
+    {
+      "id": "srv-pediatrics",
+      "name": "Pediatrics & Child Wellness Consultation",
+      "category": "Child Health",
+      "durationMinutes": 25,
+      "bufferMinutes": 10,
+      "price": 450,
+      "description": "Comprehensive child healthcare, newborn growth tracking, standard vaccination schedules, and treatment of pediatric infections in a comforting environment.",
+      "highlights": [
+        "Growth & Milestone Tracking",
+        "Vaccination Schedule",
+        "Nutritional Counseling"
+      ],
+      "active": true
+    },
+    {
+      "id": "srv-master-checkup",
+      "name": "Comprehensive Master Health Checkup Package",
+      "category": "Preventive Health Packages",
+      "durationMinutes": 90,
+      "bufferMinutes": 15,
+      "price": 2499,
+      "description": "Holistic full-body health audit including complete hemogram, lipid profile, liver & kidney function tests, fasting blood sugar, ECG, chest X-ray review, and physician summary.",
+      "highlights": [
+        "Comprehensive Lab Panel",
+        "ECG & Chest X-Ray Review",
+        "Complete Physician Consultation"
+      ],
+      "active": true
+    }
+  ],
+  "staff": [
+    {
+      "id": "doc-sushma",
+      "name": "Dr. Sushma V. Dev",
+      "title": "Senior Consultant - Obstetrics & Gynecology (MBBS, DGO, DNB)",
+      "bio": "Renowned gynecologist and obstetrician with over 15 years of surgical excellence in high-risk pregnancies, normal deliveries, and advanced laparoscopic gynecology in Mysore.",
+      "specialties": [
+        "High-Risk Obstetrics",
+        "Laparoscopic Hysterectomy",
+        "Infertility Evaluation"
+      ],
+      "assignedServiceIds": [
+        "srv-obgyn",
+        "srv-master-checkup"
+      ],
+      "activeDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true
+    },
+    {
+      "id": "doc-sumangala",
+      "name": "Dr. G. N. Sumangala",
+      "title": "Consultant - Obstetrics & Gynecology (MBBS, MS - OBG)",
+      "bio": "Dedicated women’s health expert specializing in adolescent health, maternal care, cervical screening, and preventive gynecological care.",
+      "specialties": [
+        "Antenatal Care",
+        "PCOS Management",
+        "Preventive Women Health"
+      ],
+      "assignedServiceIds": [
+        "srv-obgyn"
+      ],
+      "activeDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true
+    },
+    {
+      "id": "doc-mahesh",
+      "name": "Dr. R. K. Mahesh",
+      "title": "Chief Physician - Internal Medicine & Diabetology (MBBS, MD)",
+      "bio": "Senior physician with expertise in complex metabolic disorders, hypertension, diabetes care, and infectious disease management.",
+      "specialties": [
+        "Diabetology",
+        "Hypertension",
+        "Geriatric & Critical Care"
+      ],
+      "assignedServiceIds": [
+        "srv-medicine",
+        "srv-master-checkup"
+      ],
+      "activeDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true
+    },
+    {
+      "id": "doc-pradeep",
+      "name": "Dr. Pradeep Kumar",
+      "title": "Consultant - General & Laparoscopic Surgeon (MBBS, MS)",
+      "bio": "Specialist in minimally invasive single-incision and keyhole laparoscopic procedures, acute surgical emergencies, and surgical oncology.",
+      "specialties": [
+        "Laparoscopic Cholecystectomy",
+        "Hernia Repair",
+        "Emergency Trauma"
+      ],
+      "assignedServiceIds": [
+        "srv-surgery"
+      ],
+      "activeDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active": true
+    },
+    {
+      "id": "doc-arvind",
+      "name": "Dr. Arvind Swamy",
+      "title": "Consultant - Cardiology & Non-Invasive Diagnostics (MBBS, MD, DM)",
+      "bio": "Cardiologist with specialized focus in early coronary artery disease detection, echocardiography interpretation, and preventive cardiology.",
+      "specialties": [
+        "ECG & Echo Diagnostics",
+        "Preventive Heart Care",
+        "Hypertension"
+      ],
+      "assignedServiceIds": [
+        "srv-cardiology",
+        "srv-master-checkup"
+      ],
+      "activeDays": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true
+    },
+    {
+      "id": "doc-kavitha",
+      "name": "Dr. Kavitha Murthy",
+      "title": "Consultant - Pediatrics & Neonatology (MBBS, DCH, DNB)",
+      "bio": "Compassionate pediatrician focusing on newborn intensive care, childhood allergy management, and developmental milestones.",
+      "specialties": [
+        "Neonatal Care",
+        "Pediatric Vaccination",
+        "Child Nutrition"
+      ],
+      "assignedServiceIds": [
+        "srv-pediatrics"
+      ],
+      "activeDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true
+    }
+  ],
+  "schedule": [
+    {
+      "dayOfWeek": 0,
+      "dayName": "Sunday",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "14:00"
+    },
+    {
+      "dayOfWeek": 1,
+      "dayName": "Monday",
+      "isOpen": true,
+      "openTime": "08:30",
+      "closeTime": "20:30"
+    },
+    {
+      "dayOfWeek": 2,
+      "dayName": "Tuesday",
+      "isOpen": true,
+      "openTime": "08:30",
+      "closeTime": "20:30"
+    },
+    {
+      "dayOfWeek": 3,
+      "dayName": "Wednesday",
+      "isOpen": true,
+      "openTime": "08:30",
+      "closeTime": "20:30"
+    },
+    {
+      "dayOfWeek": 4,
+      "dayName": "Thursday",
+      "isOpen": true,
+      "openTime": "08:30",
+      "closeTime": "20:30"
+    },
+    {
+      "dayOfWeek": 5,
+      "dayName": "Friday",
+      "isOpen": true,
+      "openTime": "08:30",
+      "closeTime": "20:30"
+    },
+    {
+      "dayOfWeek": 6,
+      "dayName": "Saturday",
+      "isOpen": true,
+      "openTime": "08:30",
+      "closeTime": "20:30"
+    }
+  ],
+  "holidays": [],
+  "blockedSlots": [],
+  "appointments": [
+    {
+      "id": "appt-1792253668743-7pfhl",
+      "reference": "AH-3061-90QS",
+      "serviceId": "srv-obgyn",
+      "serviceName": "Obstetrics & Gynecology Consultation",
+      "servicePrice": 500,
+      "serviceDuration": 30,
+      "staffId": "doc-sushma",
+      "staffName": "Dr. Sushma V. Dev",
+      "date": "2026-11-02",
+      "time": "15:30",
+      "endTime": "16:00",
+      "customerName": "DFGHJ",
+      "customerEmail": "varungowda14032008@gmail.com",
+      "customerPhone": "9108103069",
+      "notes": "",
+      "status": "cancelled",
+      "createdAt": "2026-10-17T16:14:28.743Z",
+      "updatedAt": "2026-10-17T16:15:02.094Z"
+    },
+    {
+      "id": "appt-1792253813798-mhowq",
+      "reference": "AH-8254-OSC5",
+      "serviceId": "srv-master-checkup",
+      "serviceName": "Comprehensive Master Health Checkup Package",
+      "servicePrice": 2499,
+      "serviceDuration": 90,
+      "staffId": "doc-arvind",
+      "staffName": "Dr. Arvind Swamy",
+      "date": "2026-10-27",
+      "time": "15:30",
+      "endTime": "17:00",
+      "customerName": "RTYUI",
+      "customerEmail": "varungowda14032008@gmail.com",
+      "customerPhone": "9876545678",
+      "notes": "",
+      "status": "confirmed",
+      "createdAt": "2026-10-17T16:16:53.798Z",
+      "updatedAt": "2026-10-17T16:16:53.798Z"
+    },
+    {
+      "id": "appt-1792253996895-em00p",
+      "reference": "AH-6157-TORB",
+      "serviceId": "srv-obgyn",
+      "serviceName": "Obstetrics & Gynecology Consultation",
+      "servicePrice": 500,
+      "serviceDuration": 30,
+      "staffId": "doc-sumangala",
+      "staffName": "Dr. G. N. Sumangala",
+      "date": "2026-10-21",
+      "time": "13:30",
+      "endTime": "14:00",
+      "customerName": "MGFDJHGFD",
+      "customerEmail": "rekharekha5222@gmail.com",
+      "customerPhone": "987654356",
+      "notes": "",
+      "status": "confirmed",
+      "createdAt": "2026-10-17T16:19:56.895Z",
+      "updatedAt": "2026-10-17T16:19:56.895Z"
+    },
+    {
+      "id": "appt-1792254595393-5iz53",
+      "reference": "AH-8700-PJBD",
+      "serviceId": "srv-medicine",
+      "serviceName": "General Medicine & Diabetology Consultation",
+      "servicePrice": 450,
+      "serviceDuration": 25,
+      "staffId": "doc-mahesh",
+      "staffName": "Dr. R. K. Mahesh",
+      "date": "2026-10-20",
+      "time": "10:30",
+      "endTime": "10:55",
+      "customerName": "Ramesh Kumar",
+      "customerEmail": "ramesh.k@example.com",
+      "customerPhone": "+91 98765 43210",
+      "notes": "Routine checkup and blood sugar review",
+      "status": "cancelled",
+      "createdAt": "2026-10-17T16:29:55.393Z",
+      "updatedAt": "2026-10-17T16:30:01.400Z",
+      "cancellationReason": "Family emergency travel"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1792254601401-18m8",
+      "appointmentReference": "AH-8700-PJBD",
+      "appointmentNumber": "AH-8700-PJBD",
+      "recipient": "ramesh.k@example.com",
+      "type": "cancellation",
+      "status": "cancelled",
+      "subject": "[CANCELLED] Appointment #AH-8700-PJBD · Aishwarya Hospital",
+      "appointmentDate": "2026-10-20",
+      "appointmentTime": "10:30 – 10:55",
+      "locationLink": "https://www.google.com/maps/place/Aishwarya+Hospital/@12.3232344,76.5330479,13z/data=!4m7!3m6!1s0x3baf7ae5b0000001:0x505e14303dc36cc7!8m2!3d12.3232344!4d76.6092656!15sChJIT1NQSVRBTCBJTiBNWVNPUkVaFCISaG9zcGl0YWwgaW4gbXlzb3JlkgEQcHJpdmF0ZV9ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOaWFGcFhTbFpuRUFF4AEA-gEFCLoBEEs!16s%2Fg%2F11cn30ybhq",
+      "htmlBody": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <title>[CANCELLED] Appointment #AH-8700-PJBD · Aishwarya Hospital</title>\n  <style>\n    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f5f5f4; margin: 0; padding: 24px; color: #1c1917; }\n    .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; border: 1px solid #e7e5e4; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }\n    .header { background-color: #1e3a8a; padding: 24px; text-align: center; color: #ffffff; }\n    .header h1 { margin: 0; font-size: 24px; font-weight: 700; letter-spacing: -0.5px; }\n    .header p { margin: 6px 0 0 0; font-size: 13px; color: #bfdbfe; }\n    .content { padding: 32px 24px; }\n    .status-badge { display: inline-block; padding: 8px 16px; border-radius: 9999px; font-weight: 700; font-size: 14px; letter-spacing: 0.5px; text-transform: uppercase; background-color: #fef2f2; color: #dc2626; border: 1px solid #dc2626; margin-bottom: 20px; }\n    .card { background-color: #fafaf9; border-radius: 12px; border: 1px solid #e7e5e4; padding: 20px; margin-bottom: 24px; }\n    .row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #f0efee; font-size: 14px; }\n    .row:last-child { border-bottom: none; }\n    .label { color: #78716c; font-weight: 500; }\n    .value { color: #0c0a09; font-weight: 600; text-align: right; }\n    .btn { display: inline-block; background-color: #1d4ed8; color: #ffffff !important; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: center; margin: 12px 0; }\n    .footer { background-color: #f5f5f4; padding: 20px 24px; font-size: 12px; color: #78716c; text-align: center; border-top: 1px solid #e7e5e4; }\n    .alert-box { background-color: #fef2f2; border-left: 4px solid #dc2626; padding: 12px 16px; margin-bottom: 20px; border-radius: 4px; font-size: 13px; color: #1c1917; }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <div class=\"header\">\n      <h1>Aishwarya Hospital</h1>\n      <p>Vijayanagar 3rd Stage, Mysuru · Multi-Specialty Healthcare</p>\n    </div>\n\n    <div class=\"content\">\n      <div style=\"text-align: center;\">\n        <div class=\"status-badge\">Appointment CANCELLED</div>\n        <h2 style=\"margin: 0 0 8px 0; font-size: 20px; color: #0f172a;\">\n          Your appointment has been cancelled\n        </h2>\n        <p style=\"margin: 0 0 24px 0; font-size: 14px; color: #64748b;\">\n          Dear <strong>Ramesh Kumar</strong>, please find your complete appointment details below.\n        </p>\n      </div>\n\n      <div class=\"card\">\n        <div class=\"row\">\n          <span class=\"label\">Appointment Number</span>\n          <span class=\"value\" style=\"font-family: monospace; font-size: 15px; color: #1e3a8a;\">AH-8700-PJBD</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Appointment Status</span>\n          <span class=\"value\" style=\"color: #dc2626; font-weight: 700;\">CANCELLED</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Appointment Date</span>\n          <span class=\"value\">2026-10-20</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Appointment Time</span>\n          <span class=\"value\">10:30 – 10:55</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Department</span>\n          <span class=\"value\">General Medicine & Diabetology Consultation</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Consultant Doctor</span>\n          <span class=\"value\">Dr. R. K. Mahesh</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Patient Name</span>\n          <span class=\"value\">Ramesh Kumar</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Contact Number</span>\n          <span class=\"value\">+91 98765 43210</span>\n        </div>\n      </div>\n\n      <div class=\"alert-box\">\n        <strong>Hospital Address:</strong><br>\n        A-1 Block, 30, 1st Main Rd, Vijayanagar 3rd Stage, Mysuru (Mysore), Karnataka - 570012\n      </div>\n\n      <div style=\"text-align: center; margin: 24px 0;\">\n        <a href=\"https://www.google.com/maps/place/Aishwarya+Hospital/@12.3232344,76.5330479,13z/data=!4m7!3m6!1s0x3baf7ae5b0000001:0x505e14303dc36cc7!8m2!3d12.3232344!4d76.6092656!15sChJIT1NQSVRBTCBJTiBNWVNPUkVaFCISaG9zcGl0YWwgaW4gbXlzb3JlkgEQcHJpdmF0ZV9ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOaWFGcFhTbFpuRUFF4AEA-gEFCLoBEEs!16s%2Fg%2F11cn30ybhq\" class=\"btn\" target=\"_blank\" rel=\"noopener noreferrer\">\n          📍 Open Hospital in Google Maps Directions\n        </a>\n      </div>\n\n      <div style=\"font-size: 13px; color: #4b5563; line-height: 1.6; border-top: 1px solid #e5e7eb; padding-top: 16px;\">\n        <p style=\"margin: 0 0 8px 0;\"><strong>Need immediate assistance or emergency care?</strong></p>\n        <p style=\"margin: 0 0 4px 0;\">• Hospital Desk: <a href=\"tel:+91 821 241 0255\" style=\"color: #1d4ed8; font-weight: 600;\">+91 821 241 0255</a></p>\n        <p style=\"margin: 0 0 4px 0;\">• 24/7 Emergency Casualty: <a href=\"tel:+918512830995\" style=\"color: #dc2626; font-weight: 700;\">+91 85128 30995</a></p>\n        <p style=\"margin: 0;\">• Concierge Email: <a href=\"mailto:appointments@aishwaryahospitalmysore.com\" style=\"color: #1d4ed8;\">appointments@aishwaryahospitalmysore.com</a></p>\n      </div>\n    </div>\n\n    <div class=\"footer\">\n      <p style=\"margin: 0 0 4px 0;\">Aishwarya Hospital · Vijayanagar 3rd Stage, Mysuru, Karnataka 570012</p>\n      <p style=\"margin: 0;\">This email serves as your official patient appointment record.</p>\n    </div>\n  </div>\n</body>\n</html>",
+      "textBody": "============================================================\nAISHWARYA HOSPITAL — APPOINTMENT CANCELLED\n============================================================\n\nDear Ramesh Kumar,\n\nYour appointment status: CANCELLED\n\nAPPOINTMENT DETAILS:\n- Appointment Number: AH-8700-PJBD\n- Status: CANCELLED\n- Date: 2026-10-20\n- Time: 10:30 to 10:55\n- Department: General Medicine & Diabetology Consultation\n- Doctor: Dr. R. K. Mahesh\n- Patient Name: Ramesh Kumar\n- Phone: +91 98765 43210\n\nLOCATION & DIRECTIONS:\n- Hospital Address: A-1 Block, 30, 1st Main Rd, Vijayanagar 3rd Stage, Mysuru (Mysore), Karnataka - 570012\n- Google Maps Location Link: https://www.google.com/maps/place/Aishwarya+Hospital/@12.3232344,76.5330479,13z/data=!4m7!3m6!1s0x3baf7ae5b0000001:0x505e14303dc36cc7!8m2!3d12.3232344!4d76.6092656!15sChJIT1NQSVRBTCBJTiBNWVNPUkVaFCISaG9zcGl0YWwgaW4gbXlzb3JlkgEQcHJpdmF0ZV9ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOaWFGcFhTbFpuRUFF4AEA-gEFCLoBEEs!16s%2Fg%2F11cn30ybhq\n\nEMERGENCY & HELPLINE CONTACTS:\n- Hospital Reception: +91 821 241 0255\n- 24/7 Casualty Helpline: +91 85128 30995\n- Email: appointments@aishwaryahospitalmysore.com\n\nNOTE: This appointment has been cancelled. If this was not done by you or you wish to schedule a new consultation, please visit our website or call our front desk.\n\nThank you,\nAishwarya Hospital Medical Team\nVijayanagar 3rd Stage, Mysuru\n============================================================",
+      "previewSnippet": "[CANCELLED] Appointment #AH-8700-PJBD for General Medicine & Diabetology Consultation on 2026-10-20 at 10:30. Google Maps link included.",
+      "timestamp": "2026-10-17T16:30:01.401Z",
+      "deliveryState": "dev_captured_and_logged"
+    },
+    {
+      "id": "notif-1792254595394-0lpg",
+      "appointmentReference": "AH-8700-PJBD",
+      "appointmentNumber": "AH-8700-PJBD",
+      "recipient": "ramesh.k@example.com",
+      "type": "booking_confirmation",
+      "status": "confirmed",
+      "subject": "[CONFIRMED] Appointment #AH-8700-PJBD · Aishwarya Hospital",
+      "appointmentDate": "2026-10-20",
+      "appointmentTime": "10:30 – 10:55",
+      "locationLink": "https://www.google.com/maps/place/Aishwarya+Hospital/@12.3232344,76.5330479,13z/data=!4m7!3m6!1s0x3baf7ae5b0000001:0x505e14303dc36cc7!8m2!3d12.3232344!4d76.6092656!15sChJIT1NQSVRBTCBJTiBNWVNPUkVaFCISaG9zcGl0YWwgaW4gbXlzb3JlkgEQcHJpdmF0ZV9ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOaWFGcFhTbFpuRUFF4AEA-gEFCLoBEEs!16s%2Fg%2F11cn30ybhq",
+      "htmlBody": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <title>[CONFIRMED] Appointment #AH-8700-PJBD · Aishwarya Hospital</title>\n  <style>\n    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f5f5f4; margin: 0; padding: 24px; color: #1c1917; }\n    .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; border: 1px solid #e7e5e4; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }\n    .header { background-color: #1e3a8a; padding: 24px; text-align: center; color: #ffffff; }\n    .header h1 { margin: 0; font-size: 24px; font-weight: 700; letter-spacing: -0.5px; }\n    .header p { margin: 6px 0 0 0; font-size: 13px; color: #bfdbfe; }\n    .content { padding: 32px 24px; }\n    .status-badge { display: inline-block; padding: 8px 16px; border-radius: 9999px; font-weight: 700; font-size: 14px; letter-spacing: 0.5px; text-transform: uppercase; background-color: #f0fdf4; color: #16a34a; border: 1px solid #16a34a; margin-bottom: 20px; }\n    .card { background-color: #fafaf9; border-radius: 12px; border: 1px solid #e7e5e4; padding: 20px; margin-bottom: 24px; }\n    .row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #f0efee; font-size: 14px; }\n    .row:last-child { border-bottom: none; }\n    .label { color: #78716c; font-weight: 500; }\n    .value { color: #0c0a09; font-weight: 600; text-align: right; }\n    .btn { display: inline-block; background-color: #1d4ed8; color: #ffffff !important; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: center; margin: 12px 0; }\n    .footer { background-color: #f5f5f4; padding: 20px 24px; font-size: 12px; color: #78716c; text-align: center; border-top: 1px solid #e7e5e4; }\n    .alert-box { background-color: #eff6ff; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 20px; border-radius: 4px; font-size: 13px; color: #1c1917; }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <div class=\"header\">\n      <h1>Aishwarya Hospital</h1>\n      <p>Vijayanagar 3rd Stage, Mysuru · Multi-Specialty Healthcare</p>\n    </div>\n\n    <div class=\"content\">\n      <div style=\"text-align: center;\">\n        <div class=\"status-badge\">Appointment CONFIRMED</div>\n        <h2 style=\"margin: 0 0 8px 0; font-size: 20px; color: #0f172a;\">\n          Your consultation has been confirmed\n        </h2>\n        <p style=\"margin: 0 0 24px 0; font-size: 14px; color: #64748b;\">\n          Dear <strong>Ramesh Kumar</strong>, please find your complete appointment details below.\n        </p>\n      </div>\n\n      <div class=\"card\">\n        <div class=\"row\">\n          <span class=\"label\">Appointment Number</span>\n          <span class=\"value\" style=\"font-family: monospace; font-size: 15px; color: #1e3a8a;\">AH-8700-PJBD</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Appointment Status</span>\n          <span class=\"value\" style=\"color: #16a34a; font-weight: 700;\">CONFIRMED</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Appointment Date</span>\n          <span class=\"value\">2026-10-20</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Appointment Time</span>\n          <span class=\"value\">10:30 – 10:55</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Department</span>\n          <span class=\"value\">General Medicine & Diabetology Consultation</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Consultant Doctor</span>\n          <span class=\"value\">Dr. R. K. Mahesh</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Patient Name</span>\n          <span class=\"value\">Ramesh Kumar</span>\n        </div>\n        <div class=\"row\">\n          <span class=\"label\">Contact Number</span>\n          <span class=\"value\">+91 98765 43210</span>\n        </div>\n      </div>\n\n      <div class=\"alert-box\">\n        <strong>Hospital Address:</strong><br>\n        A-1 Block, 30, 1st Main Rd, Vijayanagar 3rd Stage, Mysuru (Mysore), Karnataka - 570012\n      </div>\n\n      <div style=\"text-align: center; margin: 24px 0;\">\n        <a href=\"https://www.google.com/maps/place/Aishwarya+Hospital/@12.3232344,76.5330479,13z/data=!4m7!3m6!1s0x3baf7ae5b0000001:0x505e14303dc36cc7!8m2!3d12.3232344!4d76.6092656!15sChJIT1NQSVRBTCBJTiBNWVNPUkVaFCISaG9zcGl0YWwgaW4gbXlzb3JlkgEQcHJpdmF0ZV9ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOaWFGcFhTbFpuRUFF4AEA-gEFCLoBEEs!16s%2Fg%2F11cn30ybhq\" class=\"btn\" target=\"_blank\" rel=\"noopener noreferrer\">\n          📍 Open Hospital in Google Maps Directions\n        </a>\n      </div>\n\n      <div style=\"font-size: 13px; color: #4b5563; line-height: 1.6; border-top: 1px solid #e5e7eb; padding-top: 16px;\">\n        <p style=\"margin: 0 0 8px 0;\"><strong>Need immediate assistance or emergency care?</strong></p>\n        <p style=\"margin: 0 0 4px 0;\">• Hospital Desk: <a href=\"tel:+91 821 241 0255\" style=\"color: #1d4ed8; font-weight: 600;\">+91 821 241 0255</a></p>\n        <p style=\"margin: 0 0 4px 0;\">• 24/7 Emergency Casualty: <a href=\"tel:+918512830995\" style=\"color: #dc2626; font-weight: 700;\">+91 85128 30995</a></p>\n        <p style=\"margin: 0;\">• Concierge Email: <a href=\"mailto:appointments@aishwaryahospitalmysore.com\" style=\"color: #1d4ed8;\">appointments@aishwaryahospitalmysore.com</a></p>\n      </div>\n    </div>\n\n    <div class=\"footer\">\n      <p style=\"margin: 0 0 4px 0;\">Aishwarya Hospital · Vijayanagar 3rd Stage, Mysuru, Karnataka 570012</p>\n      <p style=\"margin: 0;\">This email serves as your official patient appointment record.</p>\n    </div>\n  </div>\n</body>\n</html>",
+      "textBody": "============================================================\nAISHWARYA HOSPITAL — APPOINTMENT CONFIRMED\n============================================================\n\nDear Ramesh Kumar,\n\nYour appointment status: CONFIRMED\n\nAPPOINTMENT DETAILS:\n- Appointment Number: AH-8700-PJBD\n- Status: CONFIRMED\n- Date: 2026-10-20\n- Time: 10:30 to 10:55\n- Department: General Medicine & Diabetology Consultation\n- Doctor: Dr. R. K. Mahesh\n- Patient Name: Ramesh Kumar\n- Phone: +91 98765 43210\n\nLOCATION & DIRECTIONS:\n- Hospital Address: A-1 Block, 30, 1st Main Rd, Vijayanagar 3rd Stage, Mysuru (Mysore), Karnataka - 570012\n- Google Maps Location Link: https://www.google.com/maps/place/Aishwarya+Hospital/@12.3232344,76.5330479,13z/data=!4m7!3m6!1s0x3baf7ae5b0000001:0x505e14303dc36cc7!8m2!3d12.3232344!4d76.6092656!15sChJIT1NQSVRBTCBJTiBNWVNPUkVaFCISaG9zcGl0YWwgaW4gbXlzb3JlkgEQcHJpdmF0ZV9ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOaWFGcFhTbFpuRUFF4AEA-gEFCLoBEEs!16s%2Fg%2F11cn30ybhq\n\nEMERGENCY & HELPLINE CONTACTS:\n- Hospital Reception: +91 821 241 0255\n- 24/7 Casualty Helpline: +91 85128 30995\n- Email: appointments@aishwaryahospitalmysore.com\n\nINSTRUCTIONS: Please arrive 10 minutes prior to your allocated slot with previous medical reports and prescriptions for seamless doctor consultation.\n\nThank you,\nAishwarya Hospital Medical Team\nVijayanagar 3rd Stage, Mysuru\n============================================================",
+      "previewSnippet": "[CONFIRMED] Appointment #AH-8700-PJBD for General Medicine & Diabetology Consultation on 2026-10-20 at 10:30. Google Maps link included.",
+      "timestamp": "2026-10-17T16:29:55.394Z",
+      "deliveryState": "dev_captured_and_logged"
+    },
+    {
+      "id": "notif-1792253996896",
+      "appointmentReference": "AH-6157-TORB",
+      "recipient": "rekharekha5222@gmail.com",
+      "type": "booking_confirmation",
+      "subject": "Aishwarya Hospital OPD Confirmed: AH-6157-TORB · Obstetrics & Gynecology Consultation",
+      "previewSnippet": "Dear MGFDJHGFD, your appointment for Obstetrics & Gynecology Consultation with Dr. G. N. Sumangala on 2026-10-21 at 13:30 is confirmed at Aishwarya Hospital, Vijayanagar 3rd Stage, Mysuru.",
+      "timestamp": "2026-10-17T16:19:56.896Z",
+      "status": "delivered"
+    },
+    {
+      "id": "notif-1792253813798",
+      "appointmentReference": "AH-8254-OSC5",
+      "recipient": "varungowda14032008@gmail.com",
+      "type": "booking_confirmation",
+      "subject": "Aishwarya Hospital OPD Confirmed: AH-8254-OSC5 · Comprehensive Master Health Checkup Package",
+      "previewSnippet": "Dear RTYUI, your appointment for Comprehensive Master Health Checkup Package with Dr. Arvind Swamy on 2026-10-27 at 15:30 is confirmed at Aishwarya Hospital, Vijayanagar 3rd Stage, Mysuru.",
+      "timestamp": "2026-10-17T16:16:53.798Z",
+      "status": "delivered"
+    },
+    {
+      "id": "notif-1792253702094-o3ht",
+      "appointmentReference": "AH-3061-90QS",
+      "recipient": "varungowda14032008@gmail.com",
+      "type": "cancellation",
+      "subject": "OPD Appointment Cancelled: AH-3061-90QS",
+      "previewSnippet": "Dear DFGHJ, your OPD consultation for Obstetrics & Gynecology Consultation on 2026-11-02 at 15:30 with Dr. Sushma V. Dev is cancelled.",
+      "timestamp": "2026-10-17T16:15:02.094Z",
+      "status": "delivered"
+    },
+    {
+      "id": "notif-1792253668743",
+      "appointmentReference": "AH-3061-90QS",
+      "recipient": "varungowda14032008@gmail.com",
+      "type": "booking_confirmation",
+      "subject": "Aishwarya Hospital OPD Confirmed: AH-3061-90QS · Obstetrics & Gynecology Consultation",
+      "previewSnippet": "Dear DFGHJ, your appointment for Obstetrics & Gynecology Consultation with Dr. Sushma V. Dev on 2026-11-02 at 15:30 is confirmed at Aishwarya Hospital, Vijayanagar 3rd Stage, Mysuru.",
+      "timestamp": "2026-10-17T16:14:28.744Z",
+      "status": "delivered"
+    }
+  ]
+}
